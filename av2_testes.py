@@ -194,12 +194,12 @@ questions = {
     ]),
     'Q20': lambda: questao('Q20', 'q20.php', [
         ('Alice 45 Bob 20 Claire 18', testar_igual, [
-            'object(Pessoa)#1 (3) {\n  ["nome"]=>\n  string(5) "Alice"\n  ' +
+            'object(Pessoa)#3 (3) {\n  ["nome"]=>\n  string(5) "Alice"\n  ' +
             '["idade"]=>\n  int(45)\n  ["dependentes"]=>\n  array(2) {\n    ' +
-            '[0]=>\n    object(Pessoa)#2 (3) {\n      ["nome"]=>\n      ' +
+            '[0]=>\n    object(Pessoa)#1 (3) {\n      ["nome"]=>\n      ' +
             'string(3) "Bob"\n      ["idade"]=>\n      int(20)\n      ' +
             '["dependentes"]=>\n      array(0) {\n      }\n    }\n    ' +
-            '[1]=>\n    object(Pessoa)#3 (3) {\n      ["nome"]=>\n      ' +
+            '[1]=>\n    object(Pessoa)#2 (3) {\n      ["nome"]=>\n      ' +
             'string(6) "Claire"\n      ["idade"]=>\n      int(18)\n      ' +
             '["dependentes"]=>\n      array(0) {\n      }\n    }\n  }\n}'])
     ]),

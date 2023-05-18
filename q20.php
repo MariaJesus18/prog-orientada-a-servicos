@@ -14,9 +14,7 @@ class Pessoa {
 
 $dados = array_slice($argv, 1);
 
-
 $responsavel = new Pessoa($dados[0], $dados[1]);
-
 
 $dependentes = array_slice($dados, 2);
 
@@ -29,6 +27,5 @@ for ($i = 0; $i < count($dependentes); $i += 2) {
 }
 
 var_dump($responsavel);
-
 
 ?>
